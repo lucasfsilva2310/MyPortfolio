@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./reset.css";
+import video from "./Videos/Coding Developer.mp4";
+import { MainDivSection } from "./styles/MainDivSection";
+import { ProjectsDivSection } from "./styles/ProjectsDivSection";
+import { AboutDivSection } from "./styles/AboutDivSection";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <video src={video} autoPlay muted loop id="myVideo" />
+      <MainDivSection>
+        <h1>{`<!..Início..>`}</h1>
+        <p>Olá.</p>
+        <p>Meu nome é Lucas Ferreira,</p>
+        <p>e eu desenvolvo websites</p>
+        <span>Vem dar uma olhada!</span>
+      </MainDivSection>
+      <ProjectsDivSection></ProjectsDivSection>;
+      <AboutDivSection>
+        <p>{`{* Sobre *}`}</p>
+      </AboutDivSection>
+    </>
   );
 }
 
