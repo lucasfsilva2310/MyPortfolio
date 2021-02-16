@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const MainDivSection = styled.div`
   border-left: 4px solid grey;
-  margin: 15% auto auto auto;
+  margin: 10% auto 7% auto;
   width: 70vw;
-  height: 50vh;
+  height: 70vh;
   color: white;
   h1 {
     font-size: 1.6rem;
@@ -13,6 +13,7 @@ export const MainDivSection = styled.div`
   }
   p {
     font-size: 4rem;
+
     margin-left: 2%;
   }
 
@@ -20,5 +21,9 @@ export const MainDivSection = styled.div`
     font-size: 1.4rem;
     margin-left: 2%;
     margin-top: 5%;
+  }
+
+  div {
+    margin-top: 8%;
   }
 `;
