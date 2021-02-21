@@ -10,13 +10,19 @@ import {
   SocialMediasDiv,
   ButtonDiv,
   ContactDiv,
+  ModalDiv,
+  ModalForm,
 } from "./styles/ContactDivSection";
+import { useState } from "react";
 
 function App() {
+  const [open, setOpen] = useState(false);
+
   return (
     <>
       <video src={video} autoPlay muted loop id="myVideo" />
-
+      {open && <ModalDiv onClick={() => setOpen(false)}></ModalDiv>}
+      {open && <ModalForm>Oi</ModalForm>}
       <MainDivSection>
         <h1>{`<!..Início..>`}</h1>
         <div>
@@ -57,7 +63,7 @@ function App() {
             </a>
           </SocialMediasDiv>
           <ButtonDiv>
-            <button>Fale Comigo</button>
+            <button onClick={() => setOpen(true)}>Fale Comigo</button>
           </ButtonDiv>
         </ContactDivSection>
       </RootDiv>

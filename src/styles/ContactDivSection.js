@@ -25,6 +25,7 @@ export const SocialMediasDiv = styled.div`
   }
   p {
     margin: 3% 0 3% 0;
+    opacity: 0.7;
   }
 `;
 
@@ -64,4 +65,28 @@ export const ContactDiv = styled.div`
   span {
     margin-left: 2%;
   }
+`;
+
+export const ModalDiv = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+`;
+
+export const ModalForm = styled.div`
+  position: fixed;
+  background-color: #1e1e1f;
+  border-radius: 25px;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  height: 60%;
 `;

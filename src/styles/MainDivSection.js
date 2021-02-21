@@ -10,6 +10,7 @@ export const MainDivSection = styled.div`
     font-size: 1.6rem;
     margin-left: 7%;
     margin-bottom: 5%;
+    opacity: 0.7;
   }
   p {
     font-size: 4rem;
@@ -21,6 +22,7 @@ export const MainDivSection = styled.div`
     font-size: 1.4rem;
     margin-left: 2%;
     margin-top: 5%;
+    opacity: 0.7;
   }
 
   div {

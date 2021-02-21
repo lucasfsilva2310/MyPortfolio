@@ -13,5 +13,6 @@ export const AboutDivSection = styled.div`
   font-size: 1.6rem;
   p {
     margin-left: 20%;
+    opacity: 0.7;
   }
 `;
