@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactDivSection = styled.div`
-  width: 99.2vw;
+  width: 100%;
   height: 30vh;
   background: #161616;
   color: white;
@@ -45,6 +45,13 @@ export const ButtonDiv = styled.div`
     font-size: 1.3rem;
     border: none;
     outline: none;
+    transition: all 0.2s;
+  }
+  button:hover {
+    filter: brightness(0.9);
+    width: 42%;
+    height: 26%;
+    font-size: 1.35rem;
   }
 `;
 

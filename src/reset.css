@@ -87,6 +87,7 @@ video {
   vertical-align: baseline;
   display: flex;
   flex-direction: column;
+  font-family: "Fira Mono", monospace, sans-serif;
 }
 
 #myVideo {

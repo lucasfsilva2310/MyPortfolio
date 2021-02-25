@@ -3,17 +3,17 @@ import styled from "styled-components";
 export const MainDivSection = styled.div`
   border-left: 4px solid grey;
   margin: 10% auto 7% auto;
-  width: 70vw;
+  width: 70%;
   height: 70vh;
   color: white;
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-left: 7%;
     margin-bottom: 5%;
     opacity: 0.7;
   }
   p {
-    font-size: 4rem;
+    font-size: 3rem;
 
     margin-left: 2%;
   }
