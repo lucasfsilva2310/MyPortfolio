@@ -7,7 +7,7 @@ export const MainDivSection = styled.div`
   height: 70vh;
   color: white;
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-left: 7%;
     margin-bottom: 5%;
     opacity: 0.7;

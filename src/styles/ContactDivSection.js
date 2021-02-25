@@ -5,7 +5,7 @@ export const ContactDivSection = styled.div`
   height: 30vh;
   background: #161616;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,8 +21,19 @@ export const SocialMediasDiv = styled.div`
   display: flex;
   flex-direction: column;
   a {
+    width: 60%;
     text-decoration: none;
   }
+
+  a:hover {
+    img {
+      width: 55px;
+    }
+    span {
+      font-size: 1.4rem;
+    }
+  }
+
   p {
     margin: 3% 0 3% 0;
     opacity: 0.7;
@@ -68,9 +79,13 @@ export const ContactDiv = styled.div`
   cursor: pointer;
   img {
     width: 50px;
+    transition: all 0.2s;
   }
+
   span {
     margin-left: 2%;
+    font-size: 1.3rem;
+    transition: all 0.2s;
   }
 `;
 
@@ -86,6 +101,7 @@ export const ModalDiv = styled.div`
   justify-content: center;
   align-items: center;
   color: white;
+  z-index: 20;
 `;
 
 export const ModalForm = styled.div`
@@ -96,4 +112,5 @@ export const ModalForm = styled.div`
   left: 30%;
   width: 40%;
   height: 60%;
+  z-index: 21;
 `;

@@ -1,71 +1,50 @@
 /* eslint-disable react/jsx-no-target-blank */
 import "./reset.css";
 import video from "./Videos/Coding Developer.mp4";
-import { MainDivSection } from "./styles/MainDivSection";
-import { ProjectsDivSection } from "./styles/ProjectsDivSection";
-import { AboutDivSection } from "./styles/AboutDivSection";
+
+import HeadContent from "./components/HeadContent";
+import MyProjects from "./components/MyProjects";
+import AboutMe from "./components/AboutMe";
+import MyContactsInfo from "./components/MyContactsInfo";
+
+import { NavBarDivSection, Menu, LogoDiv } from "./styles/NavBarDivSection";
+
 import { RootDiv } from "./styles/RootDiv";
-import {
-  ContactDivSection,
-  SocialMediasDiv,
-  ButtonDiv,
-  ContactDiv,
-  ModalDiv,
-  ModalForm,
-} from "./styles/ContactDivSection";
+import { ModalDiv, ModalForm } from "./styles/ContactDivSection";
 import { useState } from "react";
 
 function App() {
-  const [open, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
       <video src={video} autoPlay muted loop id="myVideo" />
-      {open && <ModalDiv onClick={() => setOpen(false)}></ModalDiv>}
-      {open && <ModalForm>Oi</ModalForm>}
-      <MainDivSection>
-        <h1>{`<!..Início..>`}</h1>
-        <div>
-          <p>Olá.</p>
-          <p>Meu nome é Lucas Ferreira,</p>
-          <p>e eu desenvolvo websites</p>
-          <span>Vem dar uma olhada!</span>
-        </div>
-      </MainDivSection>
+      {isOpen && <ModalDiv onClick={() => setIsOpen(false)}></ModalDiv>}
+      {isOpen && <ModalForm>Oi</ModalForm>}
+      <NavBarDivSection>
+        <LogoDiv>{/*LOGO*/}</LogoDiv>
+        <Menu>
+          <ul>
+            <li>
+              <a href="#">{`<Ínicio/>`}</a>
+            </li>
+            <li>
+              <a href="#">{`<Projetos/>`}</a>
+            </li>
+            <li>
+              <a href="#">{`<Sobre/>`}</a>
+            </li>
+            <li>
+              <a href="#">{`<Contatos/>`}</a>
+            </li>
+          </ul>
+        </Menu>
+      </NavBarDivSection>
+      <HeadContent />
       <RootDiv>
-        <ProjectsDivSection></ProjectsDivSection>;
-        <AboutDivSection>
-          <p>{`{/* Sobre */}`}</p>
-        </AboutDivSection>
-        <ContactDivSection>
-          <SocialMediasDiv>
-            <p>{`// Contato`}</p>
-            <a
-              href="https://www.linkedin.com/in/lucasfsilva2310/"
-              target="_blank"
-            >
-              <ContactDiv>
-                <img
-                  src="https://img.icons8.com/nolan/64/linkedin.png"
-                  alt="Linkedin"
-                />
-                <span>in/lucasfsilva2310</span>
-              </ContactDiv>
-            </a>
-            <a href="https://github.com/lucasfsilva2310" target="_blank">
-              <ContactDiv>
-                <img
-                  src="https://img.icons8.com/nolan/64/github.png"
-                  alt="GitHub"
-                />
-                <span>github.com/lucasfsilva2310</span>
-              </ContactDiv>
-            </a>
-          </SocialMediasDiv>
-          <ButtonDiv>
-            <button onClick={() => setOpen(true)}>Fale Comigo</button>
-          </ButtonDiv>
-        </ContactDivSection>
+        <MyProjects />
+        <AboutMe />
+        <MyContactsInfo func={setIsOpen} />
       </RootDiv>
     </>
   );
