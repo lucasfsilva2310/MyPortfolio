@@ -64,6 +64,12 @@ export const ButtonDiv = styled.div`
     height: 26%;
     font-size: 1.35rem;
   }
+
+  button:active {
+    width: 38%;
+    height: 22%;
+    font-size: 1.2rem;
+  }
 `;
 
 export const ContactDiv = styled.div`
@@ -106,11 +112,26 @@ export const ModalDiv = styled.div`
 
 export const ModalForm = styled.div`
   position: fixed;
-  background-color: #1e1e1f;
+  /* background-color: #1e1e1f; */
+  background-color: rgb(230, 225, 225);
   border-radius: 25px;
   top: 20%;
   left: 30%;
   width: 40%;
   height: 60%;
   z-index: 21;
+
+  p {
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+  }
 `;
+
+// export const Form = styled.form`
+//   border: 2px solid black;
+//   border-radius: 25px;
+//   width: 90%;
+//   height: 90%;
+//   margin: auto;
+// `;
