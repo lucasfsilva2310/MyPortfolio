@@ -5,7 +5,7 @@ export const NavBarDivSection = styled.div`
   height: 8%;
 
   position: fixed;
-  top: 0;
+  top: 0px;
 
   display: flex;
   flex-direction: row;
@@ -15,6 +15,8 @@ export const NavBarDivSection = styled.div`
     rgba(10, 10, 10, 0.9),
     rgba(10, 10, 10, 0.1)
   );
+
+  transition: top 0.8s;
 `;
 
 export const Menu = styled.nav`

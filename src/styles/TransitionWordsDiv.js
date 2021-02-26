@@ -17,6 +17,11 @@ export const TransitionWords = styled.div`
 
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 
+  //instructions for when I want to reactivate the animations:
+  // - delete the strong tag
+  // - uncomment the spans tags
+  // - add the right words for type os jobs I do
+
   @media (max-width: 990px) {
     strong {
       margin-right: 8.7rem;
