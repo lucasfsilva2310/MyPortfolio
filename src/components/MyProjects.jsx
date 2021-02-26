@@ -3,7 +3,7 @@ import { ProjectsDivSection } from "../styles/ProjectsDivSection";
 const MyProjects = () => {
   return (
     <ProjectsDivSection>
-      <p>{`<!..Projetos..>`}</p>
+      <p id="projects">{`<!..Projetos..>`}</p>
     </ProjectsDivSection>
   );
 };

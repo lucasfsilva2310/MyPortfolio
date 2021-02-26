@@ -9,7 +9,7 @@ const MyContactsInfo = ({ func }) => {
   return (
     <ContactDivSection>
       <SocialMediasDiv>
-        <p>{`<!..Contato..>`}</p>
+        <p id="contacts">{`<!..Contato..>`}</p>
         <a href="https://www.linkedin.com/in/lucasfsilva2310/" target="_blank">
           <ContactDiv>
             <img
