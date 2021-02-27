@@ -5,7 +5,7 @@ import {
   ButtonDiv,
 } from "../styles/ContactDivSection";
 
-const MyContactsInfo = ({ func }) => {
+const MyContactsInfo = ({ funcToOpenModal }) => {
   return (
     <ContactDivSection>
       <SocialMediasDiv>
@@ -30,7 +30,13 @@ const MyContactsInfo = ({ func }) => {
         </a>
       </SocialMediasDiv>
       <ButtonDiv>
-        <button onClick={() => func(true)}>Fale Comigo</button>
+        <button
+          onClick={() => {
+            funcToOpenModal(true);
+          }}
+        >
+          Fale Comigo
+        </button>
       </ButtonDiv>
     </ContactDivSection>
   );

@@ -120,7 +120,6 @@ export const ModalForm = styled.div`
   width: 40%;
   height: 60%;
   z-index: 21;
-
   p {
     justify-content: center;
     align-items: center;
