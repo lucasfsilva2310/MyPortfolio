@@ -17,6 +17,8 @@ export const NavBarDivSection = styled.div`
   );
 
   transition: top 0.8s;
+
+  z-index: 9;
 `;
 
 export const Menu = styled.nav`

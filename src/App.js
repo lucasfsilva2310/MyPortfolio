@@ -12,7 +12,7 @@ import { ModalDiv } from "./styles/ContactDivSection";
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 
-import ModalFormComp from "./components/Modal";
+import ModalForm from "./components/ModalForm";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,10 +31,7 @@ function App() {
         ></ModalDiv>
       )}
       {isOpen && (
-        <ModalFormComp
-          funcToCheckForm={setIsFormOk}
-          stateToAproveForm={isFormOk}
-        />
+        <ModalForm funcToCheckForm={setIsFormOk} stateToAproveForm={isFormOk} />
       )}
       <NavBar />
       <HeadContent />

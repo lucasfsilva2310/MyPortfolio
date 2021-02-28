@@ -25,7 +25,93 @@ export const ProjectsContainer = styled.div`
   justify-content: space-around;
 
   img {
-    width: 325px;
+    width: 430px;
     height: auto;
+  }
+
+  span {
+    padding: 2% 0 2% 0;
+  }
+`;
+
+export const ModalApp = styled.div`
+  position: fixed;
+  /* background-color: #1e1e1f; */
+  background-color: rgb(230, 225, 225);
+  border-radius: 25px;
+  top: 10%;
+  left: 30%;
+  width: 40%;
+  height: 80%;
+  z-index: 21;
+  p {
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+  }
+  img {
+    border-radius: 25px 25px 0 0;
+  }
+`;
+
+export const AppInfoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const AppTechnologyContainer = styled.div`
+  margin: 2% 0 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+`;
+
+export const AppTechnology = styled.span`
+  color: gray;
+  font-size: 1.2rem;
+  margin: 2% 5% 2% 5%;
+`;
+
+export const AppTitle = styled.span`
+  font-size: 1.7rem;
+  align-items: center;
+  margin: 4% 0 4% 0;
+`;
+
+export const AppDescription = styled.span`
+  font-size: 1.1.rem;
+  line-height: 1.5;
+  margin: 1% 5% 2% 5%;
+`;
+
+export const AppModalButton = styled.button`
+  width: 20%;
+  height: 50px;
+  border-radius: 25px;
+
+  background-image: linear-gradient(to right, purple, blue);
+  color: white;
+
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+
+  position: fixed;
+  bottom: 120px;
+
+  transition: all 0.4s;
+
+  &:hover {
+    filter: brightness(0.9);
+    width: 20.5%;
+    height: 52.5px;
+    font-size: 1.35rem;
+  }
+
+  &:active {
+    width: 19.5%;
+    height: 47.5px;
+    font-size: 1.2rem;
   }
 `;

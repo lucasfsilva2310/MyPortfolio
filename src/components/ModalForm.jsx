@@ -11,7 +11,7 @@ import { useState } from "react";
 
 import { ModalForm } from "../styles/ContactDivSection";
 
-const ModalFormComp = ({ funcToCheckForm, stateToAproveForm }) => {
+const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -74,4 +74,4 @@ const ModalFormComp = ({ funcToCheckForm, stateToAproveForm }) => {
   );
 };
 
-export default ModalFormComp;
+export default ModalFormComponent;
