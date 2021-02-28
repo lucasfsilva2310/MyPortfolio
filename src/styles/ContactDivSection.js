@@ -123,14 +123,82 @@ export const ModalForm = styled.div`
   p {
     justify-content: center;
     align-items: center;
-    margin-top: 6%;
+    margin-top: 1%;
+  }
+  header {
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    font-size: 1.5rem;
   }
 `;
 
-// export const Form = styled.form`
-//   border: 2px solid black;
-//   border-radius: 25px;
-//   width: 90%;
-//   height: 90%;
-//   margin: auto;
-// `;
+export const Form = styled.form`
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 62px 15px 65px 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+`;
+
+export const Input = styled.input`
+  display: inline-block;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 17px;
+  font-size: 15px;
+  color: #1b3815;
+  line-height: 1.2;
+  font-weight: bold;
+  cursor: pointer;
+`;
+
+export const Textarea = styled.textarea`
+  min-height: 100px;
+  max-height: 100px;
+  width: 80%;
+  max-width: 80%;
+  min-width: 80%;
+`;
+
+export const Button = styled.button`
+  padding: 0 20px;
+  width: 160px;
+  height: 42px;
+  background-image: linear-gradient(to right, purple, blue);
+  border-radius: 25px;
+  font-size: 14px;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-top: 5px;
+  transition: all 0.4s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(0.9);
+    width: 165px;
+    /* height: 46px; */
+    font-size: 1rem;
+  }
+
+  &:active {
+    width: 155px;
+    /* height: 47.5px; */
+    font-size: 0.95rem;
+  }
+`;

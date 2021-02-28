@@ -1,75 +1,52 @@
 import {
-  Box,
-  Button,
+  ModalForm,
   Form,
-  FormField,
-  Grommet,
-  MaskedInput,
-  TextInput,
-} from "grommet";
-import { useState } from "react";
+  Input,
+  Textarea,
+  Button,
+} from "../styles/ContactDivSection";
 
-import { ModalForm } from "../styles/ContactDivSection";
+import { useForm } from "react-hook-form";
 
 const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
+  const { register, handleSubmit, errors } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+    setTimeout(() => funcToCheckForm(true), 1000);
+    // COLOCAR LOGICA EMAIL JAVASCRIPT AQUI
+  };
 
   return (
     <ModalForm>
-      <Grommet>
-        <Box fill align="center" justify="center">
-          <Box width="medium" justify="center" margin={{ top: "large" }}>
-            <Form
-              onChange={(value) => console.log("Change", value)}
-              onSubmit={(event) => {
-                // JAVASCRIPT EMAIL VAI AQUI
-                console.log("Submit", event.value, event.touched);
-                funcToCheckForm(true);
-              }}
-            >
-              <FormField label="Nome" name="name">
-                <TextInput
-                  name="name"
-                  value={name}
-                  onChange={(event) => setName(event.target.value)}
-                />
-              </FormField>
-              <FormField
-                label="Email"
-                name="email"
-                required
-                margin={{ top: "medium" }}
-              >
-                <MaskedInput
-                  name="email"
-                  value={email}
-                  onChange={(event) => setEmail(event.target.value)}
-                />
-              </FormField>
-              <FormField
-                label="Assunto"
-                name="subject"
-                required
-                margin={{ top: "large" }}
-              >
-                <TextInput
-                  name="subject"
-                  value={subject}
-                  onChange={(event) => setSubject(event.target.value)}
-                />
-              </FormField>
-              <Box direction="row" justify="between" margin={{ top: "xlarge" }}>
-                <Button type="submit" label="Enviar" />
-              </Box>
-            </Form>
-          </Box>
-        </Box>
-      </Grommet>
-      {stateToAproveForm && (
-        <p>{`Prontinho! Já vou entrar em contato com você! :)`}</p>
-      )}
+      <header>É só preencher os dados !</header>
+      <Form onSubmit={handleSubmit(onSubmit)}>
+        <label for="nome" class="hidden-model">
+          Nome completo
+        </label>
+        <Input type="text" name="name" ref={register} required />
+
+        <label for="email" class="hidden-model">
+          email
+        </label>
+        <Input type="email" name="email" ref={register} required />
+
+        <label for="Mensagem," class="hidden-model">
+          Mensagem
+        </label>
+        <Textarea
+          placeholder="Mensagem"
+          class="input-model"
+          name="message"
+          ref={register}
+        ></Textarea>
+        <Button type="submit" value="Enviar">
+          Enviar
+        </Button>
+        {stateToAproveForm && (
+          <p>{`Prontinho! Já vou entrar em contato com você! :)`}</p>
+        )}
+      </Form>
     </ModalForm>
   );
 };
