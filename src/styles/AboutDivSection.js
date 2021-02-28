@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const AboutDivSection = styled.div`
-  /* border: 2px solid yellow; */
   background: #1e1e1f;
   width: 100%;
   height: 62%;
@@ -17,7 +16,6 @@ export const AboutDivSection = styled.div`
 `;
 
 export const CodeContainer = styled.div`
-  /* border: 2px solid red; */
   border-left: 2px solid grey;
   margin-left: 20%;
   margin-top: 3%;
@@ -25,11 +23,10 @@ export const CodeContainer = styled.div`
 `;
 
 export const CodeRow = styled.div`
-  /* border: 1px solid blue; */
   margin-left: 2%;
-  height: 1.7rem;
   font-size: 1rem;
   justify-content: center;
+  padding: 0.5%;
 
   div {
     align-items: center;
@@ -40,6 +37,13 @@ export const CodeRow = styled.div`
 
   div:hover {
     background: #242425;
+  }
+
+  @media (max-width: 1115px) {
+    padding: 1%;
+  }
+  @media (max-width: 995px) {
+    padding-top: 2%;
   }
 `;
 
