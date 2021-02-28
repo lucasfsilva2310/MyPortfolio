@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutDivSection = styled.div`
-  /* border: 2px solid red; */
+  /* border: 2px solid yellow; */
   background: #1e1e1f;
   width: 100%;
   height: 62%;
@@ -17,27 +17,25 @@ export const AboutDivSection = styled.div`
 `;
 
 export const CodeContainer = styled.div`
+  /* border: 2px solid red; */
   border-left: 2px solid grey;
   margin-left: 20%;
   margin-top: 3%;
-  width: 90%;
   height: 75%;
 `;
 
 export const CodeRow = styled.div`
-  /* border: 1px solid red; */
-  width: 100%;
+  /* border: 1px solid blue; */
   margin-left: 2%;
   height: 1.7rem;
   font-size: 1rem;
   justify-content: center;
 
   div {
-    width: 100%;
-    height: 100%;
     align-items: center;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   div:hover {
@@ -47,8 +45,6 @@ export const CodeRow = styled.div`
 
 export const CodeLineNumber = styled.span`
   color: white;
-  /* border-right: 1px solid grey; */
-  /* padding-right: 1%; */
 `;
 
 export const Declaration = styled.span`

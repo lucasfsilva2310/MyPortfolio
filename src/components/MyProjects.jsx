@@ -95,7 +95,7 @@ const Projects = [
       "#APIGoogle",
     ],
     image: "https://i.postimg.cc/SscyfX78/Home-DBook-Sheld.png",
-    animation: { type: "jiggle", duration: 4000 },
+    animation: { type: "jiggle", duration: 4000, size: "small" },
     url: "https://dbookshelf.vercel.app/",
   },
   {
@@ -111,7 +111,7 @@ const Projects = [
       "#NextJS",
     ],
     image: "https://i.postimg.cc/rwWMk03H/Home-Pomo-Genius.png",
-    animation: { type: "pulse", duration: 4000 },
+    animation: { type: "pulse", duration: 4000, size: "small" },
     url: "https://pomo-genius.vercel.app/",
   },
 ];

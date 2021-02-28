@@ -4,16 +4,14 @@ export const TransitionWordsDiv = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  overflow: hidden;
 `;
 
 export const TransitionWords = styled.div`
   position: relative;
   text-indent: 10px;
-  /* border: 2px solid yellow; */
   font-size: 3rem;
   margin-left: 1%;
-
-  margin-bottom: 0rem;
 
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
 
@@ -26,6 +24,15 @@ export const TransitionWords = styled.div`
     strong {
       margin-right: 8.7rem;
       margin-top: 3.5rem;
+      margin-bottom: 0%;
+    }
+    @media (max-width: 825px) {
+      font-size: 2.5rem;
+      margin-bottom: 1%;
+    }
+    @media (max-width: 665px) {
+      font-size: 1.8rem;
+      margin-bottom: 5%;
     }
   }
   //From down here there are all the animations precoded

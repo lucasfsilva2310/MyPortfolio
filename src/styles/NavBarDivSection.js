@@ -22,7 +22,7 @@ export const NavBarDivSection = styled.div`
 `;
 
 export const Menu = styled.nav`
-  width: 35%;
+  width: 45%;
   display: flex;
   justify-content: center;
 
@@ -42,6 +42,25 @@ export const Menu = styled.nav`
   }
   ul > li > a:hover {
     opacity: 0.7;
+  }
+
+  @media (max-width: 1110px) {
+    width: 55%;
+  }
+
+  @media (max-width: 865px) {
+    width: 65%;
+  }
+  @media (max-width: 730px) {
+    width: 90%;
+  }
+  @media (max-width: 650px) {
+    ul {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 430px) {
+    width: 100%;
   }
 `;
 

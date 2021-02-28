@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContactDivSection = styled.div`
   width: 100%;
-  height: 30vh;
+  height: 30%;
   background: #161616;
   color: white;
   font-size: 1.4rem;
@@ -15,13 +15,13 @@ export const ContactDivSection = styled.div`
 `;
 
 export const SocialMediasDiv = styled.div`
-  width: 40vw;
-  height: 20vh;
+  width: 40%;
+  height: 20%;
   margin: 2% auto auto 20%;
   display: flex;
   flex-direction: column;
   a {
-    width: 60%;
+    width: 100%;
     text-decoration: none;
   }
 
@@ -41,15 +41,14 @@ export const SocialMediasDiv = styled.div`
 `;
 
 export const ButtonDiv = styled.div`
-  width: 30vw;
-  height: 20vh;
+  width: 30%;
   margin: 2% auto;
   display: flex;
   align-items: center;
   justify-content: center;
   button {
-    width: 40%;
-    height: 25%;
+    width: 50%;
+    height: 35%;
     border-radius: 25px;
     background-image: linear-gradient(to right, purple, blue);
     color: white;
@@ -70,12 +69,22 @@ export const ButtonDiv = styled.div`
     height: 22%;
     font-size: 1.2rem;
   }
+  @media (max-width: 930px) {
+    button {
+      width: 170px;
+    }
+  }
+  @media (max-width: 640px) {
+    button {
+      width: 130px;
+    }
+  }
 `;
 
 export const ContactDiv = styled.div`
-  /* width: 50px; */
-  /* height: 5vh; */
   display: flex;
+
+  height: 70px;
   flex-direction: row;
   align-items: center;
   color: purple;
@@ -112,7 +121,6 @@ export const ModalDiv = styled.div`
 
 export const ModalForm = styled.div`
   position: fixed;
-  /* background-color: #1e1e1f; */
   background-color: rgb(230, 225, 225);
   border-radius: 25px;
   top: 20%;
@@ -192,13 +200,11 @@ export const Button = styled.button`
   &:hover {
     filter: brightness(0.9);
     width: 165px;
-    /* height: 46px; */
     font-size: 1rem;
   }
 
   &:active {
     width: 155px;
-    /* height: 47.5px; */
     font-size: 0.95rem;
   }
 `;

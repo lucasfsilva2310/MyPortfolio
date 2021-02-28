@@ -25,7 +25,7 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
               src="https://img.icons8.com/nolan/64/github.png"
               alt="GitHub"
             />
-            <span>github.com/lucasfsilva2310</span>
+            <span>/lucasfsilva2310</span>
           </ContactDiv>
         </a>
       </SocialMediasDiv>
