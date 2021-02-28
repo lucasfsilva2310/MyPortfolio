@@ -76,31 +76,42 @@ const Projects = [
   {
     title: "MyOwnPokédex",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    technologies: ["#React", "#Redux", "#Javascript", "#HTML", "#CSS"],
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHdOdw4iIpCNMLDNGxxnB4L47gGLWAA5nig&usqp=CAU",
+      "Criado um aplicativo que obtém informações de uma API externa, e de acordo com a seleção do usuário, renderiza outra página com a descrição do card clicado. Foram usadas as tecnologias React, Redux para armazenar informações, e requisições de uma API.",
+    technologies: ["#React", "#Redux", "#Javascript", "#HTML", "#CSS", "#API"],
+    image: "https://i.postimg.cc/x8W3D4NB/Home-Pokedex-1.png",
     animation: { type: "pulse", duration: 4000, size: "small" },
-    url:
-      "https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab",
+    url: "https://my-own-pokedexv2.vercel.app/",
   },
   {
     title: "Dbookshelf",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    technologies: ["#React", "#Redux", "#Javascript", "#HTML", "#CSS"],
-    image: "https://mdn.mozillademos.org/files/8531/web-site.jpg",
+      "Criado um aplicativo onde se pode buscar por qualquer livro contido na API de livros da Google. É possível pesquisar, salvar seus livros favoritos em uma lista, e também removê-los. Foi usada uma técnica de armazenamento de informações local.",
+    technologies: [
+      "#React",
+      "#Redux",
+      "#Javascript",
+      "#HTML",
+      "#CSS",
+      "#APIGoogle",
+    ],
+    image: "https://i.postimg.cc/SscyfX78/Home-DBook-Sheld.png",
     animation: { type: "jiggle", duration: 4000 },
-    url: "https://www.linkedin.com/mynetwork/",
+    url: "https://dbookshelf.vercel.app/",
   },
   {
     title: "PomoGenius",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    technologies: ["#React", "#Redux", "#Javascript", "#HTML", "#CSS"],
-    image:
-      "https://media.gcflearnfree.org/content/5e9745ab65c51443f80a55e8_04_15_2020/exploring.png",
+      "Um aplicativo criado com a técnica de pomodoro, para estudos, mas com um método de 'gamificação'. O usuário, ao completar ciclos de estudo, pode efetuar determinados desafios para subir de level.",
+    technologies: [
+      "#React",
+      "#ContextAPI",
+      "#Javascript",
+      "#HTML",
+      "#CSS",
+      "#NextJS",
+    ],
+    image: "https://i.postimg.cc/rwWMk03H/Home-Pomo-Genius.png",
     animation: { type: "pulse", duration: 4000 },
-    url: "https://www.linkedin.com/mynetwork/",
+    url: "https://pomo-genius.vercel.app/",
   },
 ];

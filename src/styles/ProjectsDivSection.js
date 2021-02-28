@@ -64,11 +64,14 @@ export const AppTechnologyContainer = styled.div`
   margin: 2% 0 2% 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+  word-break: break-all;
 `;
 
 export const AppTechnology = styled.span`
   color: gray;
+
   font-size: 1.2rem;
   margin: 2% 5% 2% 5%;
 `;
@@ -76,7 +79,7 @@ export const AppTechnology = styled.span`
 export const AppTitle = styled.span`
   font-size: 1.7rem;
   align-items: center;
-  margin: 4% 0 4% 0;
+  margin: 2% 0 2% 0;
 `;
 
 export const AppDescription = styled.span`
