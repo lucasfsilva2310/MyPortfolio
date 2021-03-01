@@ -6,30 +6,39 @@ import {
   Button,
 } from "../styles/ContactDivSection";
 
-import { useForm } from "react-hook-form";
+import { sendForm } from "emailjs-com";
 
 const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
-  const { register, handleSubmit, errors } = useForm();
-
   const onSubmit = (data) => {
     console.log(data);
+    data.preventDefault();
     setTimeout(() => funcToCheckForm(true), 1000);
     // COLOCAR LOGICA EMAIL JAVASCRIPT AQUI
+    sendForm(
+      "contato_portfolio",
+      "contato_portoflio",
+      data.target,
+      "user_mPU9p33FjIwjo8jm59LJf"
+    )
+      .then((res) => {
+        console.log(res.text);
+      })
+      .catch((res) => console.log(res.text));
   };
 
   return (
     <ModalForm>
       <header>É só preencher os dados !</header>
-      <Form onSubmit={handleSubmit(onSubmit)}>
-        <label for="nome" class="hidden-model">
+      <Form onSubmit={onSubmit} className="contact-form">
+        <label for="name" class="hidden-model">
           Nome completo
         </label>
-        <Input type="text" name="name" ref={register} required />
+        <Input type="text" name="name" required />
 
         <label for="email" class="hidden-model">
           email
         </label>
-        <Input type="email" name="email" ref={register} required />
+        <Input type="email" name="email" r required />
 
         <label for="Mensagem," class="hidden-model">
           Mensagem
@@ -38,7 +47,6 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
           placeholder="Mensagem"
           class="input-model"
           name="message"
-          ref={register}
         ></Textarea>
         <Button type="submit" value="Enviar">
           Enviar
