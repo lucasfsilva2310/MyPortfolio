@@ -5,12 +5,13 @@ import {
   AppTechnology,
   AppTechnologyContainer,
   AppTitle,
+  ImageApp,
 } from "../styles/ProjectsDivSection";
 
 export const ModalProject = ({ appInfo }) => {
   return (
     <>
-      <img src={appInfo.image} alt={appInfo.title} />
+      <ImageApp src={appInfo.image} alt={appInfo.title} />
       <AppInfoContainer>
         <AppTechnologyContainer>
           {appInfo.technologies.map((tech) => (

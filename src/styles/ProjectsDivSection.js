@@ -36,7 +36,6 @@ export const ProjectsContainer = styled.div`
 
 export const ModalApp = styled.div`
   position: fixed;
-  /* background-color: #1e1e1f; */
   background-color: rgb(230, 225, 225);
   border-radius: 25px;
   top: 10%;
@@ -53,6 +52,8 @@ export const ModalApp = styled.div`
     border-radius: 25px 25px 0 0;
   }
 `;
+
+export const ImageApp = styled.img``;
 
 export const AppInfoContainer = styled.div`
   display: flex;
@@ -73,23 +74,26 @@ export const AppTechnology = styled.span`
   color: gray;
 
   font-size: 1.2rem;
-  margin: 2% 5% 2% 5%;
+  margin: 2% 5% 0% 5%;
 `;
 
 export const AppTitle = styled.span`
   font-size: 1.7rem;
   align-items: center;
-  margin: 2% 0 2% 0;
+  margin: 0% 0 2% 0;
 `;
 
 export const AppDescription = styled.span`
-  font-size: 1.1.rem;
+  font-size: 1.1rem;
   line-height: 1.5;
   margin: 1% 5% 2% 5%;
+  @media (max-width: 1000px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const AppModalButton = styled.button`
-  width: 20%;
+  width: 40%;
   height: 50px;
   border-radius: 25px;
 
@@ -99,9 +103,6 @@ export const AppModalButton = styled.button`
   font-size: 1.3rem;
   border: none;
   outline: none;
-
-  position: fixed;
-  bottom: 120px;
 
   transition: all 0.4s;
 

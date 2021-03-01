@@ -47,8 +47,8 @@ export const ButtonDiv = styled.div`
   align-items: center;
   justify-content: center;
   button {
-    width: 50%;
-    height: 35%;
+    width: 40%;
+    height: 27%;
     border-radius: 25px;
     background-image: linear-gradient(to right, purple, blue);
     color: white;
@@ -60,7 +60,7 @@ export const ButtonDiv = styled.div`
   button:hover {
     filter: brightness(0.9);
     width: 42%;
-    height: 26%;
+    height: 28%;
     font-size: 1.35rem;
   }
 
