@@ -21,7 +21,7 @@ export const SocialMediasDiv = styled.div`
   display: flex;
   flex-direction: column;
   a {
-    width: 100%;
+    width: 50%;
     text-decoration: none;
   }
 
