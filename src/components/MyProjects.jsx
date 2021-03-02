@@ -79,7 +79,7 @@ const Projects = [
       "Criado um aplicativo que obtém informações de uma API externa, e de acordo com a seleção do usuário, renderiza outra página com a descrição do card clicado. Foram usadas as tecnologias React, Redux para armazenar informações, e requisições de uma API.",
     technologies: ["#React", "#Redux", "#Javascript", "#HTML", "#CSS", "#API"],
     image: "https://i.postimg.cc/x8W3D4NB/Home-Pokedex-1.png",
-    animation: { type: "pulse", duration: 4000, size: "small" },
+    animation: { type: "jiggle", duration: 4000, size: "small" },
     url: "https://my-own-pokedexv2.vercel.app/",
   },
   {
@@ -111,7 +111,7 @@ const Projects = [
       "#NextJS",
     ],
     image: "https://i.postimg.cc/rwWMk03H/Home-Pomo-Genius.png",
-    animation: { type: "pulse", duration: 4000, size: "small" },
+    animation: { type: "jiggle", duration: 4000, size: "small" },
     url: "https://pomo-genius.vercel.app/",
   },
 ];
