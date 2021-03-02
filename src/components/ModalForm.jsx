@@ -11,6 +11,7 @@ import { sendForm } from "emailjs-com";
 
 const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
   const onSubmit = (data) => {
+    document.body.style.cursor = "wait";
     console.log(data);
     data.preventDefault();
     // setTimeout(() => funcToCheckForm(true), 1000);
@@ -23,6 +24,7 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
     )
       .then((res) => {
         console.log(res.text);
+        document.body.style.cursor = "default";
         funcToCheckForm(true);
       })
       .catch((res) => console.log(res.text));
