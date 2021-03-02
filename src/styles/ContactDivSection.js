@@ -123,7 +123,7 @@ export const ModalForm = styled.div`
   position: fixed;
   background-color: rgb(230, 225, 225);
   border-radius: 25px;
-  top: 20%;
+  top: 23%;
   left: 30%;
   width: 40%;
   height: 60%;
@@ -207,4 +207,8 @@ export const Button = styled.button`
     width: 155px;
     font-size: 0.95rem;
   }
+`;
+
+export const MessageForm = styled.p`
+  align-items: flex-end;
 `;
