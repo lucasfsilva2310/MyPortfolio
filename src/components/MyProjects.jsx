@@ -99,19 +99,12 @@ const Projects = [
     url: "https://dbookshelf.vercel.app/",
   },
   {
-    title: "PomoGenius",
+    title: "HealthyPomo",
     description:
       "Um aplicativo criado com a técnica de pomodoro, para estudos, mas com um método de 'gamificação'. O usuário, ao completar ciclos de estudo, pode efetuar determinados desafios para subir de level.",
-    technologies: [
-      "#React",
-      "#ContextAPI",
-      "#Javascript",
-      "#HTML",
-      "#CSS",
-      "#NextJS",
-    ],
+    technologies: ["#React", "#ContextAPI", "#Javascript", "#HTML", "#CSS"],
     image: "https://i.postimg.cc/rwWMk03H/Home-Pomo-Genius.png",
     animation: { type: "jiggle", duration: 4000, size: "small" },
-    url: "https://pomo-genius.vercel.app/",
+    url: "https://healthy-pomo-one.vercel.app/",
   },
 ];

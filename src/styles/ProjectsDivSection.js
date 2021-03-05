@@ -108,14 +108,14 @@ export const AppModalButton = styled.button`
 
   &:hover {
     filter: brightness(0.9);
-    width: 20.5%;
-    height: 52.5px;
+    width: 39%;
+    height: 51.5px;
     font-size: 1.35rem;
   }
 
   &:active {
-    width: 19.5%;
-    height: 47.5px;
-    font-size: 1.2rem;
+    width: 40%;
+    height: 51.5px;
+    font-size: 1.35rem;
   }
 `;
