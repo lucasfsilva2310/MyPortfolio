@@ -107,4 +107,21 @@ const Projects = [
     animation: { type: "jiggle", duration: 4000, size: "small" },
     url: "https://healthy-pomo-one.vercel.app/",
   },
+  {
+    title: "My Cuisine",
+    description:
+      "Um aplicativo de receitas. Consiste no uso de duas APIs, uma sobre receitas(Edamans) e outra sobre video(Youtube). É possível buscar receitas, ver ingredientes, passo a passo, vídeos de exemplo, e salvar suas receitas nos favoritos.",
+    technologies: [
+      "#React",
+      "#ContextAPI",
+      "#Javascript",
+      "#HTML",
+      "#CSS",
+      "EdamansAPI",
+      "YoutubeAPI",
+    ],
+    image: "https://i.postimg.cc/kg5J6dN6/Home-My-Cuisine.png",
+    animation: { type: "jiggle", duration: 4000, size: "small" },
+    url: "https://my-cuisine.vercel.app/",
+  },
 ];
