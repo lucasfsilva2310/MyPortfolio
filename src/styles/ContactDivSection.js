@@ -102,6 +102,16 @@ export const ContactDiv = styled.div`
     font-size: 1.3rem;
     transition: all 0.2s;
   }
+  @media (max-width: 990px) {
+    span {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 990px) {
+    span {
+      display: none;
+    }
+  }
 `;
 
 export const ModalDiv = styled.div`
@@ -171,6 +181,12 @@ export const Input = styled.input`
   line-height: 1.2;
   font-weight: bold;
   cursor: pointer;
+  @media (max-width: 610px) {
+    width: 120px;
+  }
+  @media (max-width: 395px) {
+    width: 80px;
+  }
 `;
 
 export const Textarea = styled.textarea`
@@ -179,6 +195,10 @@ export const Textarea = styled.textarea`
   width: 80%;
   max-width: 80%;
   min-width: 80%;
+  @media (max-width: 610px) {
+    min-height: 60px;
+    min-width: 60px;
+  }
 `;
 
 export const Button = styled.button`
@@ -206,6 +226,10 @@ export const Button = styled.button`
   &:active {
     width: 155px;
     font-size: 0.95rem;
+  }
+
+  @media (max-width: 395px) {
+    width: 100px;
   }
 `;
 
