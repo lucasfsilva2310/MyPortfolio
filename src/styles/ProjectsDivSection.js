@@ -51,6 +51,22 @@ export const ModalApp = styled.div`
   img {
     border-radius: 25px 25px 0 0;
   }
+  @media (max-width: 1000px) {
+    height: 68%;
+    top: 17%;
+  }
+  @media (max-width: 1000px) {
+    height: 68%;
+    top: 17%;
+  }
+  @media (max-width: 790px) {
+    width: 60%;
+    left: 20%;
+  }
+  @media (max-width: 435px) {
+    width: 80%;
+    left: 10%;
+  }
 `;
 
 export const ImageApp = styled.img``;
