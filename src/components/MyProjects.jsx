@@ -76,7 +76,7 @@ const Projects = [
   {
     title: "MyOwnPokédex",
     description:
-      "Criado um aplicativo que obtém informações de uma API externa, e de acordo com a seleção do usuário, renderiza outra página com a descrição do card clicado. Foram usadas as tecnologias React, Redux para armazenar informações, e requisições de uma API.",
+      "Simple app about Pokémon, for the purpose of practice getting data from an outside API",
     technologies: ["#React", "#Redux", "#Javascript", "#HTML", "#CSS", "#API"],
     image: "https://i.postimg.cc/x8W3D4NB/Home-Pokedex-1.png",
     animation: { type: "jiggle", duration: 4000, size: "small" },
@@ -85,7 +85,7 @@ const Projects = [
   {
     title: "Dbookshelf",
     description:
-      "Criado um aplicativo onde se pode buscar por qualquer livro contido na API de livros da Google. É possível pesquisar, salvar seus livros favoritos em uma lista, e também removê-los. Foi usada uma técnica de armazenamento de informações local.",
+      "App made for practice working with a google API, and because I wanted a way to search for, and save my favorite books :)",
     technologies: [
       "#React",
       "#Redux",
@@ -101,7 +101,7 @@ const Projects = [
   {
     title: "HealthyPomo",
     description:
-      "Um aplicativo criado com a técnica de pomodoro, para estudos, mas com um método de 'gamificação'. O usuário, ao completar ciclos de estudo, pode efetuar determinados desafios para subir de level.",
+      "A simple pomodoro App with a few gaming features for motivation and being focused while I´m studying/working",
     technologies: ["#React", "#ContextAPI", "#Javascript", "#HTML", "#CSS"],
     image: "https://i.postimg.cc/rwWMk03H/Home-Pomo-Genius.png",
     animation: { type: "jiggle", duration: 4000, size: "small" },
@@ -110,7 +110,7 @@ const Projects = [
   {
     title: "My Cuisine",
     description:
-      "Um aplicativo de receitas. Consiste no uso de duas APIs, uma sobre receitas(Edamans) e outra sobre video(Youtube). É possível buscar receitas, ver ingredientes, passo a passo, vídeos de exemplo, e salvar suas receitas nos favoritos.",
+      "A recipes app. You can search for a recipe, watch a youtube video about it, and also sabe as favorite for later use! I personally love this one.",
     technologies: [
       "#React",
       "#ContextAPI",

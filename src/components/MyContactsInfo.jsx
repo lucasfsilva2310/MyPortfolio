@@ -9,7 +9,7 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
   return (
     <ContactDivSection>
       <SocialMediasDiv>
-        <p id="contacts">{`<!..Contato..>`}</p>
+        <p id="contacts">{`<!..Contact..>`}</p>
         <a href="https://www.linkedin.com/in/lucasfsilva2310/" target="_blank">
           <ContactDiv>
             <img
@@ -35,7 +35,7 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
             funcToOpenModal(true);
           }}
         >
-          Fale Comigo
+          Contact Me
         </button>
       </ButtonDiv>
     </ContactDivSection>

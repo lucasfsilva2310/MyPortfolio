@@ -34,7 +34,7 @@ const AboutMe = () => {
             <CodeLineNumber>02</CodeLineNumber> <Space /> <Space />
             <Space />
             <Space />
-            <Comment>{`//`} Empolgado em aprender novas tecnologias.</Comment>
+            <Comment>{`//`} Always excited to learn new technologies.</Comment>
           </div>
         </CodeRow>
         <CodeRow>
@@ -43,8 +43,8 @@ const AboutMe = () => {
             <Space />
             <Space />
             <Comment>
-              {`//`} Minha quantidade e qualidade hard e soft skills aumenta
-              diariamente {`:)`}
+              {`//`} I´m improving everiday searching for new ways to code{" "}
+              {`:)`}
             </Comment>
           </div>
         </CodeRow>
@@ -124,11 +124,9 @@ const AboutMe = () => {
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'08/2019 - 06/2020'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>
-              'Aram Bistrô Café e Bar - Gerente Operacional'
-            </VarValues>{" "}
+            <VarValues>'03/2021 - now'</VarValues> <Space /> <Signs>:</Signs>{" "}
+            <Space />{" "}
+            <VarValues>'Provi Soluções - FullStack Developer'</VarValues>{" "}
             <Space /> <Signs>{`},`}</Signs>
           </div>
         </CodeRow>
@@ -138,9 +136,11 @@ const AboutMe = () => {
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'04/2019 - 06/2019'</VarValues> <Space />{" "}
+            <VarValues>'08/2019 - 06/2020'</VarValues> <Space />{" "}
             <Signs>:</Signs> <Space />{" "}
-            <VarValues>'Birds From Amazon - Assistente pessoal'</VarValues>{" "}
+            <VarValues>
+              'Aram Bistrô Café e Bar - Operational Manager'
+            </VarValues>{" "}
             <Space /> <Signs>{`},`}</Signs>
           </div>
         </CodeRow>
@@ -150,10 +150,10 @@ const AboutMe = () => {
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'09/2017 - 02/2018'</VarValues> <Space />{" "}
+            <VarValues>'04/2019 - 06/2019'</VarValues> <Space />{" "}
             <Signs>:</Signs> <Space />{" "}
-            <VarValues>'Martin Dog - Promotor de vendas'</VarValues> <Space />{" "}
-            <Signs>{`},`}</Signs>
+            <VarValues>'Birds From Amazon - Personal Assistant'</VarValues>{" "}
+            <Space /> <Signs>{`},`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
@@ -162,29 +162,41 @@ const AboutMe = () => {
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'06/2017 - 10/2017'</VarValues> <Space />{" "}
+            <VarValues>'09/2017 - 02/2018'</VarValues> <Space />{" "}
             <Signs>:</Signs> <Space />{" "}
-            <VarValues>'Pet Care - Auxiliar veterinário'</VarValues> <Space />{" "}
-            <Signs>{`}`}</Signs>
+            <VarValues>'Martin Dog - Sales Promoter'</VarValues> <Space />{" "}
+            <Signs>{`},`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
             <CodeLineNumber>15</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
-            <Signs>{`]`}</Signs>
+            <Space /> <Space />
+            <Signs>{`{`}</Signs> <Space />{" "}
+            <VarValues>'06/2017 - 10/2017'</VarValues> <Space />{" "}
+            <Signs>:</Signs> <Space />{" "}
+            <VarValues>'Pet Care - Veterinary Assistant'</VarValues> <Space />{" "}
+            <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
             <CodeLineNumber>16</CodeLineNumber> <Space /> <Space />
+            <Space /> <Space /> <Space /> <Space />
+            <Signs>{`]`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>17</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>17</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>18</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>education</Names>
             <Signs>{`()`}</Signs>
@@ -193,7 +205,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>18</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>19</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs>
@@ -201,13 +213,13 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>19</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>20</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space /> <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'07/2020 - now'</VarValues> <Space /> <Signs>:</Signs>{" "}
-            <Space />{" "}
+            <VarValues>'07/2020 - 07/2021'</VarValues> <Space />{" "}
+            <Signs>:</Signs> <Space />{" "}
             <VarValues>
-              'Kenzie Academy Brasil - Desenvolvedor Web FullStack'
+              'Kenzie Academy Brasil - FullStack Intensive Course'
             </VarValues>{" "}
             <Space /> <Signs>{`},`}</Signs>
           </div>
@@ -215,21 +227,21 @@ const AboutMe = () => {
 
         <CodeRow>
           <div>
-            <CodeLineNumber>20</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>21</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>21</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>22</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>22</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>23</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>exchange</Names>
             <Signs>{`()`}</Signs> <Space /> <Signs>{`{`}</Signs>
@@ -237,7 +249,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>23</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>24</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs>
@@ -245,7 +257,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>24</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>25</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space /> <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />
             <VarValues>'12/2018 - 07-2019'</VarValues> <Space />{" "}
@@ -256,21 +268,21 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>25</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>26</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>26</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>27</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>27</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>28</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>skills</Names> <Signs>{`()`}</Signs> <Space />{" "}
             <Signs>{`{`}</Signs>
@@ -278,7 +290,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>28</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>29</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs> <Space /> <VarValues>'HTML'</VarValues>
@@ -287,27 +299,30 @@ const AboutMe = () => {
             <Signs>,</Signs>
             <Space /> <VarValues>'Javascript'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'ReactJS'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'NextJS'</VarValues>
+            <Signs>,</Signs> <Space />{" "}
+            <VarValues>'Styled-Components'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'Tailwind'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'ChakraUI'</VarValues>
             <Signs>,</Signs>
             <Space /> <VarValues>'Redux'</VarValues>
             <Signs>,</Signs>
             <Space /> <VarValues>'Python'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'GIT'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'npm/yarn'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'Flask'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'Docker'</VarValues> <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>29</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>30</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>30</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>31</CodeLineNumber> <Space /> <Space />
             <Signs>{`}`}</Signs> <Space />
             <TickingSpan>
               <span>|</span>

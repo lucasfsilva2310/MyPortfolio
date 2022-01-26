@@ -131,7 +131,6 @@ export const ModalDiv = styled.div`
 
 export const ModalForm = styled.div`
   position: fixed;
-  background-color: rgb(230, 225, 225);
   border-radius: 25px;
   top: 23%;
   left: 30%;

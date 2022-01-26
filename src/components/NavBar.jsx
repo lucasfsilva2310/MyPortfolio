@@ -21,16 +21,16 @@ const NavBar = () => {
       <Menu>
         <ul>
           <li>
-            <a href="#start">{`<Ínicio/>`}</a>
+            <a href="#start">{`<Start/>`}</a>
           </li>
           <li>
-            <a href="#projects">{`<Projetos/>`}</a>
+            <a href="#projects">{`<Projects/>`}</a>
           </li>
           <li>
-            <a href="#aboutMe">{`<Sobre/>`}</a>
+            <a href="#aboutMe">{`<About me/>`}</a>
           </li>
           <li>
-            <a href="#contacts">{`<Contatos/>`}</a>
+            <a href="#contacts">{`<Contact/>`}</a>
           </li>
         </ul>
       </Menu>

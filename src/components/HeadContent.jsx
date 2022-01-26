@@ -7,22 +7,17 @@ import {
 const HeadContent = () => {
   return (
     <MainDivSection>
-      <h1 id="start">{`<!..Início..>`}</h1>
+      <h1 id="start">{`<!..Start..>`}</h1>
       <TextBox>
-        <p>Olá.</p>
-        <p>Meu nome é Lucas Ferreira,</p>
+        <p>Hi.</p>
+        <p>My name is Lucas Ferreira</p>
         <TransitionWordsDiv>
-          <p>e eu desenvolvo</p>
+          <p>and I develop</p>
           <TransitionWords>
             <strong>websites</strong>
-            {/*Animações prontas */
-            /* <span className="words w1">websites</span>
-            <span className="words w2">sugar</span>
-            <span className="words w3">spice</span>
-            <span className="words w4">colors</span> */}
           </TransitionWords>
         </TransitionWordsDiv>
-        <CheckIt>Vem dar uma olhada!</CheckIt>
+        <CheckIt>Come have a look!</CheckIt>
       </TextBox>
     </MainDivSection>
   );

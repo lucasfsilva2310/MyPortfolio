@@ -100,7 +100,7 @@ export const AppTitle = styled.span`
 `;
 
 export const AppDescription = styled.span`
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   line-height: 1.5;
   margin: 1% 5% 2% 5%;
   @media (max-width: 1000px) {

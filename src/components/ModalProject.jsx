@@ -25,7 +25,7 @@ export const ModalProject = ({ appInfo }) => {
           type="button"
           onClick={() => window.open(appInfo.url, "_blank")}
         >
-          Dar uma olhada!
+          Check it out!
         </AppModalButton>
       </AppInfoContainer>
     </>

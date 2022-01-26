@@ -14,8 +14,6 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
     document.body.style.cursor = "wait";
     console.log(data);
     data.preventDefault();
-    // setTimeout(() => funcToCheckForm(true), 1000);
-    // COLOCAR LOGICA EMAIL JAVASCRIPT AQUI
     sendForm(
       "contato_portfolio",
       "contato_portoflio",
@@ -34,19 +32,19 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
     <ModalForm>
       {/* <header>É só preencher os dados !</header> */}
       <Form onSubmit={onSubmit} className="contact-form">
-        <header>É só preencher os dados !</header>
+        <header>Send me a message !</header>
         <label for="name" class="hidden-model">
-          Nome completo
+          Full Name
         </label>
         <Input type="text" name="name" required />
 
         <label for="email" class="hidden-model">
-          email
+          E-mail
         </label>
         <Input type="email" name="email" r required />
 
         <label for="Mensagem," class="hidden-model">
-          Mensagem
+          Message
         </label>
         <Textarea
           placeholder="Mensagem"
@@ -54,10 +52,10 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
           name="message"
         ></Textarea>
         <Button type="submit" value="Enviar">
-          Enviar
+          Send
         </Button>
         {stateToAproveForm && (
-          <MessageForm>{`Prontinho! Já vou entrar em contato com você! :)`}</MessageForm>
+          <MessageForm>{`All done! I will get in touch with you :)`}</MessageForm>
         )}
       </Form>
     </ModalForm>
