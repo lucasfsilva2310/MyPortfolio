@@ -50,4 +50,14 @@ export const PROJECTS = [
       animation: { type: "jiggle", duration: 4000, size: "small" },
       url: "https://my-cuisine.vercel.app/",
     },
+    {
+      title: 'Aram Restaurant',
+      description: 'A 2 page application for a restaurant that requested an example template for me to create for them',
+      technologies: [
+        '#React', '#MaterialUI', '#HTML', '#CSS', '#styledComponents', 
+      ],
+      image: 'https://i.postimg.cc/kgK3sQPL/aram.png',
+      animation: { type: "jiggle", duration: 4000, size: "small" },
+      url: 'https://aram2-0.vercel.app/'
+    }
   ]
