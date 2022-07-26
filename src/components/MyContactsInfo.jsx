@@ -10,7 +10,7 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
     <ContactDivSection>
       <SocialMediasDiv>
         <p id="contacts">{`<!..Contact..>`}</p>
-        <a href="https://www.linkedin.com/in/lucasfsilva2310/" target="_blank">
+        <a href="https://www.linkedin.com/in/lucasfsilva2310/" target="_blank" rel="noreferrer">
           <ContactDiv>
             <img
               src="https://img.icons8.com/nolan/64/linkedin.png"
@@ -19,7 +19,7 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
             <span>in/lucasfsilva2310</span>
           </ContactDiv>
         </a>
-        <a href="https://github.com/lucasfsilva2310" target="_blank">
+        <a href="https://github.com/lucasfsilva2310" target="_blank" rel="noreferrer">
           <ContactDiv>
             <img
               src="https://img.icons8.com/nolan/64/github.png"
@@ -31,6 +31,7 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
       </SocialMediasDiv>
       <ButtonDiv>
         <button
+          style={{cursor: "pointer"}}
           onClick={() => {
             funcToOpenModal(true);
           }}
