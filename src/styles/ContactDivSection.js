@@ -38,6 +38,7 @@ export const SocialMediasDiv = styled.div`
     margin: 3% 0 3% 0;
     opacity: 0.7;
   }
+  
 `;
 
 export const ButtonDiv = styled.div`
@@ -55,20 +56,13 @@ export const ButtonDiv = styled.div`
     font-size: 1.3rem;
     border: none;
     outline: none;
+    cursor: pointer;
     transition: all 0.2s;
   }
   button:hover {
     filter: brightness(0.9);
-    width: 42%;
-    height: 28%;
-    font-size: 1.35rem;
   }
 
-  button:active {
-    width: 38%;
-    height: 22%;
-    font-size: 1.2rem;
-  }
   @media (max-width: 930px) {
     button {
       width: 170px;
@@ -102,11 +96,7 @@ export const ContactDiv = styled.div`
     font-size: 1.3rem;
     transition: all 0.2s;
   }
-  @media (max-width: 990px) {
-    span {
-      font-size: 1rem;
-    }
-  }
+
   @media (max-width: 990px) {
     span {
       display: none;
@@ -217,14 +207,7 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    filter: brightness(0.9);
-    width: 165px;
-    font-size: 1rem;
-  }
-
-  &:active {
-    width: 155px;
-    font-size: 0.95rem;
+    filter: brightness(0.8);
   }
 
   @media (max-width: 395px) {

@@ -31,7 +31,6 @@ const MyContactsInfo = ({ funcToOpenModal }) => {
       </SocialMediasDiv>
       <ButtonDiv>
         <button
-          style={{cursor: "pointer"}}
           onClick={() => {
             funcToOpenModal(true);
           }}

@@ -15,6 +15,12 @@ import {
   VarValues,
 } from "../styles/AboutDivSection";
 
+const addSpaces = (quantity) => {
+  const arrayWithQuantity = Array.from(Array(quantity).keys())
+
+  return arrayWithQuantity.map(() => <Space/>)
+}
+
 const AboutMe = () => {
   return (
     <AboutDivSection>
@@ -22,335 +28,445 @@ const AboutMe = () => {
       <CodeContainer>
         <CodeRow>
           <div>
-            <CodeLineNumber>01</CodeLineNumber> <Space />
-            <Space />
+            <CodeLineNumber>1</CodeLineNumber> 
+            {addSpaces(3)}
             <Declaration>class </Declaration>
-            <Space /> <Names>Lucas</Names> <Space />
+            {addSpaces(1)} 
+            <Names>Lucas</Names> 
+            {addSpaces(1)}
             <Signs>{`{`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>02</CodeLineNumber> <Space /> <Space />
-            <Space />
-            <Space />
+            <CodeLineNumber>2</CodeLineNumber> 
+            {addSpaces(5)}
             <Comment>{`//`} Always excited to learn new technologies.</Comment>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>03</CodeLineNumber> <Space /> <Space />
-            <Space />
-            <Space />
+            <CodeLineNumber>3</CodeLineNumber> 
+            {addSpaces(5)}
             <Comment>
-              {`//`} I´m improving everyday searching for new ways to code{" "}
+              {`//`} I`m improving everyday searching for new ways to code
               {`:)`}
             </Comment>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>04</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
+            <CodeLineNumber>4</CodeLineNumber> 
+            {addSpaces(5)}
             <Declaration>developer</Declaration>
-            <Signs>{`()`}</Signs> <Space /> <Signs>{`{`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>05</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Emphasis>this</Emphasis>
-            <Signs>.</Signs>
-            <VarName>name</VarName>
-            <Space />
-            <Emphasis>=</Emphasis>
-            <Space />
-            <VarValues>'Lucas Ferreira Silva'</VarValues>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>06</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Emphasis>this</Emphasis>
-            <Signs>.</Signs>
-            <VarName>age</VarName>
-            <Space />
-            <Emphasis>=</Emphasis>
-            <Space />
-            <VarValueNumber>26</VarValueNumber>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>07</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Emphasis>this</Emphasis>
-            <Signs>.</Signs>
-            <VarName>email</VarName>
-            <Space />
-            <Emphasis>=</Emphasis>
-            <Space />
-            <VarValues>'lucasfsilva2310@gmail.com'</VarValues>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>08</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Emphasis>this</Emphasis>
-            <Signs>.</Signs>
-            <VarName>phoneNumber</VarName>
-            <Space />
-            <Emphasis>=</Emphasis>
-            <Space />
-            <VarValueNumber>'+55 11 96670-3167'</VarValueNumber>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>09</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`}`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>10</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Names>workExperience</Names>
-            <Signs>{`()`}</Signs> <Space /> <Signs>{`{`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>11</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Declaration>return</Declaration> <Space />
-            <Signs>{`[`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>12</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'03/2021 - now'</VarValues> <Space /> <Signs>:</Signs>{" "}
-            <Space />{" "}
-            <VarValues>'Provi Soluções - FullStack Web Developer'</VarValues>{" "}
-            <Space /> <Signs>{`},`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>13</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'08/2019 - 06/2020'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>
-              'Aram Bistrô Café e Bar - Operational Manager'
-            </VarValues>{" "}
-            <Space /> <Signs>{`},`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>14</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'04/2019 - 06/2019'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>'Birds From Amazon - Personal Assistant'</VarValues>{" "}
-            <Space /> <Signs>{`},`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>15</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'09/2017 - 02/2018'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>'Martin Dog - Sales Promoter'</VarValues> <Space />{" "}
-            <Signs>{`},`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>16</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'06/2017 - 10/2017'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>'Pet Care - Veterinary Assistant'</VarValues> <Space />{" "}
-            <Signs>{`}`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>17</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Signs>{`]`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>18</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`}`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>19</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Names>education</Names>
-            <Signs>{`()`}</Signs>
-            <Space /> <Signs>{`{`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>20</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Declaration>return</Declaration> <Space />
-            <Signs>{`[`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>21</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space /> <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />{" "}
-            <VarValues>'07/2020 - 07/2021'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>
-              'Kenzie Academy Brasil - FullStack Web Course'
-            </VarValues>{" "}
-            <Space /> <Signs>{`},`}</Signs>
-          </div>
-        </CodeRow>
-
-        <CodeRow>
-          <div>
-            <CodeLineNumber>22</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Signs>{`]`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>23</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`}`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>24</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Names>exchange</Names>
-            <Signs>{`()`}</Signs> <Space /> <Signs>{`{`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>25</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Declaration>return</Declaration> <Space />
-            <Signs>{`[`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>26</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space /> <Space /> <Space />
-            <Signs>{`{`}</Signs> <Space />
-            <VarValues>'12/2018 - 07-2019'</VarValues> <Space />{" "}
-            <Signs>:</Signs> <Space />{" "}
-            <VarValues>' Australia - General English Course '</VarValues>{" "}
-            <Space /> <Signs>{`}`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>27</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Signs>{`]`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>28</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Signs>{`}`}</Signs>
-          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>29</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
-            <Names>skills</Names> <Signs>{`()`}</Signs> <Space />{" "}
+            <Signs>{`()`}</Signs> 
+            {addSpaces(1)}
             <Signs>{`{`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>30</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space /> <Space /> <Space />
-            <Declaration>return</Declaration> <Space />
-            <Signs>{`[`}</Signs> <Space /> <VarValues>'HTML'</VarValues>
-            <Signs>,</Signs>
-            <Space /> <VarValues>'CSS'</VarValues>
-            <Signs>,</Signs>
-            <Space /> <VarValues>'Javascript'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'ReactJS'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'NextJS'</VarValues>
-            <Signs>,</Signs> <Space />{" "}
-            <VarValues>'Styled-Components'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'Tailwind'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'ChakraUI'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'MaterialUI'</VarValues>
-            <Signs>,</Signs>          </div>
-        </CodeRow>
-        <CodeRow>
-          <div>
-            <CodeLineNumber>31</CodeLineNumber> <Space /> <Space /> 
-            <Space /> <Space /> <Space /> <Space /> <Space /> <Space /> 
-            <Space /> <Space /> <Space /> <Space />
-            <Space /> <VarValues>'Redux'</VarValues>
-            <Signs>,</Signs>
-            <Space /> <VarValues>'Python'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'GIT'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'npm/yarn'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'NodeJS'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'ExpressJS'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'Jest'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'Cypress'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'MongoDB'</VarValues>
-            <Signs>,</Signs> <Space /> <VarValues>'PostgreSQL'</VarValues>
-            <Space />
-            <Signs>{`]`}</Signs>
+            <CodeLineNumber>5</CodeLineNumber> 
+            {addSpaces(7)}
+            <Emphasis>this</Emphasis>
+            <Signs>.</Signs>
+            <VarName>name</VarName>
+            {addSpaces(1)}
+            <Emphasis>=</Emphasis>
+            {addSpaces(1)}
+            <VarValues>'Lucas Ferreira Silva'</VarValues>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>32</CodeLineNumber> <Space /> <Space />
-            <Space /> <Space />
+            <CodeLineNumber>6</CodeLineNumber> 
+            {addSpaces(7)}
+            <Emphasis>this</Emphasis>
+            <Signs>.</Signs>
+            <VarName>age</VarName>
+            {addSpaces(1)}
+            <Emphasis>=</Emphasis>
+            {addSpaces(1)}
+            <VarValueNumber>27</VarValueNumber>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>7</CodeLineNumber> 
+            {addSpaces(7)}
+            <Emphasis>this</Emphasis>
+            <Signs>.</Signs>
+            <VarName>email</VarName>
+            {addSpaces(1)}
+            <Emphasis>=</Emphasis>
+            {addSpaces(1)}
+            <VarValues>'lucasfsilva2310@gmail.com'</VarValues>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>8</CodeLineNumber> 
+            {addSpaces(7)}
+            <Emphasis>this</Emphasis>
+            <Signs>.</Signs>
+            <VarName>phoneNumber</VarName>
+            {addSpaces(1)}
+            <Emphasis>=</Emphasis>
+            {addSpaces(1)}
+            <VarValues>'+55 11 96670-3167'</VarValues>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>9</CodeLineNumber> 
+            {addSpaces(5)}
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>33</CodeLineNumber> <Space /> <Space />
-            <Signs>{`}`}</Signs> <Space />
+            <CodeLineNumber>10</CodeLineNumber> 
+            {addSpaces(4)}
+            <Names>workExperience</Names>
+            <Signs>{`()`}</Signs> 
+            {addSpaces(1)}
+            <Signs>{`{`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>11</CodeLineNumber> 
+            {addSpaces(6)}
+            <Declaration>return</Declaration> <Space />
+            <Signs>{`[`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>12</CodeLineNumber> 
+            {addSpaces(8)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'03/2021 - now'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs>
+            {addSpaces(1)}
+            <VarValues>'Provi Soluções - FullStack Web Developer'</VarValues>{" "}
+            {addSpaces(1)} 
+            <Signs>{`},`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>13</CodeLineNumber> 
+            {addSpaces(8)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'08/2019 - 06/2020'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs> 
+            {addSpaces(1)}
+            <VarValues>
+              'Aram Bistrô Café e Bar - Operational Manager'
+            </VarValues>{" "}
+            {addSpaces(1)}
+            <Signs>{`},`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>14</CodeLineNumber> 
+            {addSpaces(8)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'04/2019 - 06/2019'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs> 
+            {addSpaces(1)}
+            <VarValues>'Birds From Amazon - Personal Assistant'</VarValues>{" "}
+            {addSpaces(1)}
+            <Signs>{`},`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>15</CodeLineNumber> 
+            {addSpaces(8)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'09/2017 - 02/2018'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs> 
+            {addSpaces(1)}
+            <VarValues>'Martin Dog - Sales Promoter'</VarValues> 
+            {addSpaces(1)}
+            <Signs>{`},`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>16</CodeLineNumber> 
+            {addSpaces(8)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'06/2017 - 10/2017'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs> 
+            {addSpaces(1)}
+            <VarValues>'Pet Care - Veterinary Assistant'</VarValues> 
+            {addSpaces(1)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>17</CodeLineNumber> 
+            {addSpaces(6)}
+            <Signs>{`]`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>18</CodeLineNumber> 
+            {addSpaces(6)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>19</CodeLineNumber> 
+            {addSpaces(4)}
+            <Names>education</Names>
+            <Signs>{`()`}</Signs>
+            {addSpaces(1)}
+            <Signs>{`{`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>20</CodeLineNumber> 
+            {addSpaces(6)}
+            <Declaration>return</Declaration> 
+            {addSpaces(1)}
+            <Signs>{`[`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>21</CodeLineNumber> 
+            {addSpaces(8)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'07/2020 - 07/2021'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs> 
+            {addSpaces(1)}
+            <VarValues>
+              'Kenzie Academy Brasil - FullStack Web Course'
+            </VarValues>{" "}
+            {addSpaces(1)}
+            <Signs>{`},`}</Signs>
+          </div>
+        </CodeRow>
+
+        <CodeRow>
+          <div>
+            <CodeLineNumber>22</CodeLineNumber> 
+            {addSpaces(6)}
+            <Signs>{`]`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>23</CodeLineNumber> 
+            {addSpaces(4)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>24</CodeLineNumber> 
+            {addSpaces(4)}
+            <Names>exchange</Names>
+            <Signs>{`()`}</Signs> 
+            {addSpaces(1)}
+            <Signs>{`{`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>25</CodeLineNumber> 
+            {addSpaces(6)}
+            <Declaration>return</Declaration> 
+            {addSpaces(1)}
+            <Signs>{`[`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>26</CodeLineNumber> 
+            {addSpaces(6)}
+            <Signs>{`{`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'12/2018 - 07-2019'</VarValues> 
+            {addSpaces(1)}
+            <Signs>:</Signs> 
+            {addSpaces(1)}
+            <VarValues>' Australia - General English Course '</VarValues>
+            {addSpaces(1)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>27</CodeLineNumber> 
+            {addSpaces(6)}
+            <Signs>{`]`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>28</CodeLineNumber> 
+            {addSpaces(4)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>29</CodeLineNumber> 
+            {addSpaces(4)}
+            <Names>skills</Names> <Signs>{`()`}</Signs> 
+            {addSpaces(1)}
+            <Signs>{`{`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>30</CodeLineNumber> 
+            {addSpaces(6)}
+            <Declaration>return</Declaration> 
+            {addSpaces(1)}
+            <Signs>{`[`}</Signs> 
+            {addSpaces(1)}
+            <VarValues>'HTML'</VarValues>
+            <Signs>,</Signs>
+            {addSpaces(1)}
+            <VarValues>'CSS'</VarValues>
+            <Signs>,</Signs>
+            {addSpaces(1)}
+            <VarValues>'Javascript'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'ReactJS'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'NextJS'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'Styled-Components'</VarValues>
+            <Signs>,</Signs> 
+            </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>31</CodeLineNumber> 
+            {addSpaces(13)}
+            <VarValues>'Redux'</VarValues>
+            <Signs>,</Signs>
+            {addSpaces(1)}
+            <VarValues>'Python'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'GIT'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'npm/yarn'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'NodeJS'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'ExpressJS'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'Jest'</VarValues>
+            <Signs>,</Signs> 
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+          <CodeLineNumber>32</CodeLineNumber> 
+            {addSpaces(13)}
+            <VarValues>'Tailwind'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'ChakraUI'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'MaterialUI'</VarValues>
+            <Signs>,</Signs>    
+            {addSpaces(1)}
+            <VarValues>'Cypress'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'MongoDB'</VarValues>
+            <Signs>,</Signs> 
+            {addSpaces(1)}
+            <VarValues>'PostgreSQL'</VarValues>
+            {addSpaces(1)}
+            <Signs>{`]`}</Signs>      
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>33</CodeLineNumber> 
+            {addSpaces(4)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>34</CodeLineNumber> 
+            {addSpaces(4)}
+            <Names>letsCode</Names>
+            <Signs>{`(challenges)`}</Signs> 
+            {addSpaces(1)}
+            <Signs>{`{`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>34</CodeLineNumber> 
+            {addSpaces(6)}
+            <Signs>{`while (challenges ===`}</Signs> 
+            <VarValues>'undone'</VarValues>
+            <Signs>{`) {`}</Signs> 
+            {addSpaces(1)}
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>30</CodeLineNumber> 
+            {addSpaces(6)}
+            <Declaration>return</Declaration> 
+            {addSpaces(2)}
+            <VarValues>'keep going!'</VarValues>
+            {addSpaces(1)}
+          </div>
+        </CodeRow>
+        <CodeRow>
+        <div>
+            <CodeLineNumber>33</CodeLineNumber> 
+            {addSpaces(4)}
+            <Signs>{`}`}</Signs>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>34</CodeLineNumber> 
+            {addSpaces(2)}
+            <Signs>{`}`}</Signs> 
+            {addSpaces(1)}
             <TickingSpan>
               <span>|</span>
             </TickingSpan>

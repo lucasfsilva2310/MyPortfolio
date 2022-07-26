@@ -41,7 +41,7 @@ export const ModalApp = styled.div`
   top: 10%;
   left: 30%;
   width: 40%;
-  height: 80%;
+  height: 85%;
   z-index: 21;
   p {
     justify-content: center;
@@ -52,11 +52,11 @@ export const ModalApp = styled.div`
     border-radius: 25px 25px 0 0;
   }
   @media (max-width: 1000px) {
-    height: 68%;
+    height: 80%;
     top: 17%;
   }
   @media (max-width: 1000px) {
-    height: 68%;
+    height: 80%;
     top: 17%;
   }
   @media (max-width: 790px) {
@@ -75,6 +75,8 @@ export const AppInfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+
 `;
 
 export const AppTechnologyContainer = styled.div`
@@ -89,7 +91,7 @@ export const AppTechnologyContainer = styled.div`
 export const AppTechnology = styled.span`
   color: gray;
 
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 2% 5% 0% 5%;
 `;
 
@@ -123,16 +125,7 @@ export const AppModalButton = styled.button`
   transition: all 0.4s;
 
   &:hover {
-    filter: brightness(0.9);
-    width: 39%;
-    height: 51.5px;
-    font-size: 1.35rem;
+    filter: brightness(0.8);
     cursor: pointer;
-  }
-
-  &:active {
-    width: 40%;
-    height: 51.5px;
-    font-size: 1.35rem;
   }
 `;
