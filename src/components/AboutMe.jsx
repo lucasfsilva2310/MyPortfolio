@@ -18,7 +18,7 @@ import {
 const AboutMe = () => {
   return (
     <AboutDivSection>
-      <p id="aboutMe">{`<!..Sobre..>`}</p>
+      <p id="aboutMe">{`<!..About Me..>`}</p>
       <CodeContainer>
         <CodeRow>
           <div>
@@ -43,7 +43,7 @@ const AboutMe = () => {
             <Space />
             <Space />
             <Comment>
-              {`//`} I´m improving everiday searching for new ways to code{" "}
+              {`//`} I´m improving everyday searching for new ways to code{" "}
               {`:)`}
             </Comment>
           </div>
@@ -98,13 +98,26 @@ const AboutMe = () => {
         <CodeRow>
           <div>
             <CodeLineNumber>08</CodeLineNumber> <Space /> <Space />
+            <Space /> <Space /> <Space /> <Space />
+            <Emphasis>this</Emphasis>
+            <Signs>.</Signs>
+            <VarName>phoneNumber</VarName>
+            <Space />
+            <Emphasis>=</Emphasis>
+            <Space />
+            <VarValueNumber>'+55 11 96670-3167'</VarValueNumber>
+          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>09</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>09</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>10</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>workExperience</Names>
             <Signs>{`()`}</Signs> <Space /> <Signs>{`{`}</Signs>
@@ -112,7 +125,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>10</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>11</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs>
@@ -120,19 +133,19 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>11</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>12</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
             <VarValues>'03/2021 - now'</VarValues> <Space /> <Signs>:</Signs>{" "}
             <Space />{" "}
-            <VarValues>'Provi Soluções - FullStack Developer'</VarValues>{" "}
+            <VarValues>'Provi Soluções - FullStack Web Developer'</VarValues>{" "}
             <Space /> <Signs>{`},`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>12</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>13</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
@@ -146,7 +159,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>13</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>14</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
@@ -158,7 +171,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>14</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>15</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
@@ -170,7 +183,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>15</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>16</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
@@ -182,21 +195,21 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>16</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>17</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>17</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>18</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>18</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>19</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>education</Names>
             <Signs>{`()`}</Signs>
@@ -205,7 +218,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>19</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>20</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs>
@@ -213,13 +226,13 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>20</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>21</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space /> <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />{" "}
             <VarValues>'07/2020 - 07/2021'</VarValues> <Space />{" "}
             <Signs>:</Signs> <Space />{" "}
             <VarValues>
-              'Kenzie Academy Brasil - FullStack Intensive Course'
+              'Kenzie Academy Brasil - FullStack Web Course'
             </VarValues>{" "}
             <Space /> <Signs>{`},`}</Signs>
           </div>
@@ -227,21 +240,21 @@ const AboutMe = () => {
 
         <CodeRow>
           <div>
-            <CodeLineNumber>21</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>22</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>22</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>23</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>23</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>24</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>exchange</Names>
             <Signs>{`()`}</Signs> <Space /> <Signs>{`{`}</Signs>
@@ -249,7 +262,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>24</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>25</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs>
@@ -257,7 +270,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>25</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>26</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space /> <Space /> <Space />
             <Signs>{`{`}</Signs> <Space />
             <VarValues>'12/2018 - 07-2019'</VarValues> <Space />{" "}
@@ -268,21 +281,21 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>26</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>27</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>27</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>28</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>28</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>29</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Names>skills</Names> <Signs>{`()`}</Signs> <Space />{" "}
             <Signs>{`{`}</Signs>
@@ -290,7 +303,7 @@ const AboutMe = () => {
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>29</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>30</CodeLineNumber> <Space /> <Space />
             <Space /> <Space /> <Space /> <Space />
             <Declaration>return</Declaration> <Space />
             <Signs>{`[`}</Signs> <Space /> <VarValues>'HTML'</VarValues>
@@ -304,25 +317,39 @@ const AboutMe = () => {
             <VarValues>'Styled-Components'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'Tailwind'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'ChakraUI'</VarValues>
-            <Signs>,</Signs>
+            <Signs>,</Signs> <Space /> <VarValues>'MaterialUI'</VarValues>
+            <Signs>,</Signs>          </div>
+        </CodeRow>
+        <CodeRow>
+          <div>
+            <CodeLineNumber>31</CodeLineNumber> <Space /> <Space /> 
+            <Space /> <Space /> <Space /> <Space /> <Space /> <Space /> 
+            <Space /> <Space /> <Space /> <Space />
             <Space /> <VarValues>'Redux'</VarValues>
             <Signs>,</Signs>
             <Space /> <VarValues>'Python'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'GIT'</VarValues>
             <Signs>,</Signs> <Space /> <VarValues>'npm/yarn'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'NodeJS'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'ExpressJS'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'Jest'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'Cypress'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'MongoDB'</VarValues>
+            <Signs>,</Signs> <Space /> <VarValues>'PostgreSQL'</VarValues>
+            <Space />
             <Signs>{`]`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>30</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>32</CodeLineNumber> <Space /> <Space />
             <Space /> <Space />
             <Signs>{`}`}</Signs>
           </div>
         </CodeRow>
         <CodeRow>
           <div>
-            <CodeLineNumber>31</CodeLineNumber> <Space /> <Space />
+            <CodeLineNumber>33</CodeLineNumber> <Space /> <Space />
             <Signs>{`}`}</Signs> <Space />
             <TickingSpan>
               <span>|</span>

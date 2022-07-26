@@ -12,7 +12,6 @@ import { sendForm } from "emailjs-com";
 const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
   const onSubmit = (data) => {
     document.body.style.cursor = "wait";
-    console.log(data);
     data.preventDefault();
     sendForm(
       "contato_portfolio",
@@ -21,7 +20,6 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
       "user_mPU9p33FjIwjo8jm59LJf"
     )
       .then((res) => {
-        console.log(res.text);
         document.body.style.cursor = "default";
         funcToCheckForm(true);
       })
@@ -30,7 +28,6 @@ const ModalFormComponent = ({ funcToCheckForm, stateToAproveForm }) => {
 
   return (
     <ModalForm>
-      {/* <header>É só preencher os dados !</header> */}
       <Form onSubmit={onSubmit} className="contact-form">
         <header>Send me a message !</header>
         <label for="name" class="hidden-model">

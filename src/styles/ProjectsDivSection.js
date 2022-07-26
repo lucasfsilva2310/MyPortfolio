@@ -127,6 +127,7 @@ export const AppModalButton = styled.button`
     width: 39%;
     height: 51.5px;
     font-size: 1.35rem;
+    cursor: pointer;
   }
 
   &:active {
