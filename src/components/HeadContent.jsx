@@ -8,7 +8,7 @@ const HeadContent = () => {
         <p>Hello.</p>
         <p>My name is Lucas Ferreira Silva</p>
           <p>and I am a FullStack developer</p>
-        <CheckIt>Come have a look!</CheckIt>
+        <CheckIt>Come have a look at my projects!</CheckIt>
       </TextBox>
     </MainDivSection>
   );
