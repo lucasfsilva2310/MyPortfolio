@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const ContactDivSection = styled.div`
   width: 100%;
@@ -12,7 +12,7 @@ export const ContactDivSection = styled.div`
   p {
     margin-top: 1%;
   }
-`;
+`
 
 export const SocialMediasDiv = styled.div`
   width: 40%;
@@ -26,20 +26,14 @@ export const SocialMediasDiv = styled.div`
   }
 
   a:hover {
-    img {
-      width: 55px;
-    }
-    span {
-      font-size: 1.4rem;
-    }
+    filter: brightness(0.8);
   }
 
   p {
     margin: 3% 0 3% 0;
     opacity: 0.7;
   }
-  
-`;
+`
 
 export const ButtonDiv = styled.div`
   width: 30%;
@@ -73,7 +67,7 @@ export const ButtonDiv = styled.div`
       width: 130px;
     }
   }
-`;
+`
 
 export const ContactDiv = styled.div`
   display: flex;
@@ -102,7 +96,7 @@ export const ContactDiv = styled.div`
       display: none;
     }
   }
-`;
+`
 
 export const ModalDiv = styled.div`
   position: fixed;
@@ -117,7 +111,7 @@ export const ModalDiv = styled.div`
   align-items: center;
   color: white;
   z-index: 20;
-`;
+`
 
 export const ModalForm = styled.div`
   position: fixed;
@@ -138,7 +132,7 @@ export const ModalForm = styled.div`
     margin: 2%;
     font-size: 1.5rem;
   }
-`;
+`
 
 export const Form = styled.form`
   display: block;
@@ -157,7 +151,7 @@ export const Form = styled.form`
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-`;
+`
 
 export const Input = styled.input`
   display: inline-block;
@@ -176,7 +170,7 @@ export const Input = styled.input`
   @media (max-width: 395px) {
     width: 80px;
   }
-`;
+`
 
 export const Textarea = styled.textarea`
   min-height: 100px;
@@ -188,7 +182,7 @@ export const Textarea = styled.textarea`
     min-height: 60px;
     min-width: 60px;
   }
-`;
+`
 
 export const Button = styled.button`
   padding: 0 20px;
@@ -213,8 +207,8 @@ export const Button = styled.button`
   @media (max-width: 395px) {
     width: 100px;
   }
-`;
+`
 
 export const MessageForm = styled.p`
   align-items: flex-end;
-`;
+`
