@@ -36,7 +36,8 @@ function App() {
       <NavBar />
       <HeadContent />
       <RootDiv>
-        <MyProjects />
+        {/* Make new projects */}
+        {/* <MyProjects />  */}
         <AboutMe />
         <MyContactsInfo funcToOpenModal={setIsOpen} />
       </RootDiv>
